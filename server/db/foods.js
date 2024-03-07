@@ -7,7 +7,7 @@ async function getAllFoods() {
     SELECT * FROM foods;
   `)
 
-  console.log(rows)
+  // console.log(rows)
 
   return rows
 }
@@ -23,7 +23,7 @@ async function addNewFood(food) {
   `, [ name, calories])
 
 
-  console.log(addedFood)
+  // console.log(addedFood)
   return addedFood
 }
 
